@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-color: lightblue;
+    background-image: url("fijiblue.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:antiquewhite;
+    
+}
+h1{ 
+    font-size: 350%;
+    text-align: center;
+}
+p{
+    font-size: 150%;
+    text-align: center;
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 200px;
+}
+
+.polaroid{
+    position: relative;
+    top: 10%;
+    left: 25%;
+    max-width: 350px;
+}
+.frame{
+    max-width: 350px;
+}
+.album{
+    position:absolute;
+    top: 5.8%;
+    text-align: center;
+    max-width:350px;
+}
+#wave{
+    max-width: 90%;
+}
+.caption{
+    text-align: center;
+}
+#takes2{
+    max-width:90%;
+}
+
